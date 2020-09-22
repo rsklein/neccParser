@@ -120,6 +120,7 @@ class Find {
                 } else {
                     total += 1
                     printJson(subview: subview)
+                    return
                 }
             }
         }
@@ -166,6 +167,7 @@ class Find {
             } else {
                 total+=1
                 printJson(subview: subview)
+                return
             }
         }
         if let subviews = subview.contentView?.subviews {
